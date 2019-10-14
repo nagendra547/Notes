@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Note App</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <h1>Note App</h1>
+  <form>
+    <textarea name="formNoteText" id="formNoteText" cols="50" rows="8" maxlength="300"></textarea>
+    <select name="formColor" id="formColor">
+      <option value="none">Select color</option>
+      <option value="red">Red</option>
+      <option value="green">Green</option>
+      <option value="blue">Blue</option>
+      <option value="yellow">Yellow</option>
+      <option value="grey">Grey</option>
+    </select>
+    <button id="addNote">Add note</button>
+  </form>
+  <div id="noteList"></div>
+  <script src="app.js"></script>
+</body>
+</html>
